@@ -20,12 +20,12 @@ public:
 
 	static int StringLength(const char* str)                    // to calculate string length
 	{
-		int count = 0;
+		int c = 0;
 		for (int i = 0; str[i] != '\0'; i++)
 		{
-			count++;
+			c++;
 		}
-		return count;
+		return c;
 	}
 
 	static char* GetStringFromBuffer(const char* str)           // to get a string from temporary buffer
